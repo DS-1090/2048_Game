@@ -1,0 +1,109 @@
+.main {
+    animation-name: anim;
+    animation-duration: 3s;
+    background-color: rgb(255, 255, 255);
+    /*color: rgb(105, 105, 244);*/
+    color:white;
+    border-radius: 10%;
+    text-align: center;
+    display: inline-block;
+    background: transparent;
+    border: none;
+    margin: 0 auto;  
+    padding: 20px; 
+    /*box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.387);  */
+    box-sizing: content-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    
+}
+
+body {
+    background-image:url(sitebg2.jpg);
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+     align-items: center;
+     margin-top: 1.8%;
+ }
+
+@keyframes anim {
+    0% {
+      transform: translateX(100%) translateY(100%);
+ 
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0) translateY(0);
+
+      opacity: 1;
+    }
+}
+.matrix{
+    display: flex;
+    flex-wrap: wrap;
+    width: 430px;
+    height: 430px;
+    /*background-color:rgb(99, 99, 173);
+    border: 4px solid rgb(99, 99, 173);
+    display: inline-block;*/
+    background: transparent;
+    border: none;
+
+    border-radius: 9px;
+    margin-top: 20px;
+  }
+  
+  .matrix div {
+    width: 85px;
+    height: 85px;
+    margin: 7px;
+    border-radius: 9px;
+    background-color:rgb(241, 241, 250);
+    color:rgb(255, 255, 255);
+    font-weight: bold;
+    text-align: center;
+    font-size: 60px;
+    line-height: 1.25;
+    /*border:4px solid rgb(99, 99, 173) ;*/
+    transition: background 0.3s, color 0.3s;
+ 
+    }
+  input[type="reset"]{
+    background-color: rgb(246, 246, 249);
+    color:rgb(56, 40, 230);
+    text-align: center;
+    margin: auto;
+    border-radius: 10%;
+    font-size: medium;
+    border: white;
+    cursor: pointer;
+    margin-right: 9%;
+    padding: 12px 25px;
+    
+    font-size: 150%;
+  }
+
+  .result{
+    text-align: center;
+    /*color:  #800080cf;*/
+    color: white;
+    font-size: 110%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;;
+    margin-right: 2%;
+    margin-left: 2.75%;
+  }
+  h1{
+    font-size: 360%;
+    margin-bottom: 0%;
+    margin-right: 2.25%;
+  }
+ p{
+  margin-top: 4%;
+  font-size: 150%;
+  text-align: center;
+  margin-right: 10%;
+  
+ }
+   
